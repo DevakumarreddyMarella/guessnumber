@@ -1,0 +1,77 @@
+body{
+    background: black;
+    color: white;
+    font-family: sans-serif;
+}
+.box{
+    height: 400px;
+    width: 800px;
+    background: rgba(0,0,0,30%);
+    border: solid 2px white;
+    margin-top: 150px;
+    margin-left: 400px;
+}
+.text{
+    margin-left: 120px;
+}
+.text h1{
+    margin-left: 70px;
+}
+.text h2{
+    color: rgb(192, 215, 16);
+    margin-left: 230px;
+}
+.text p{
+    font-size: 20px;
+    margin-left: 110px;
+}
+label{
+    font-size: 20px;
+    margin-left:100px ;
+    /* margin-bottom: 100px; */
+}
+#input{
+    width: 170px;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    padding-left: 20px;
+    /* margin-left:80px ; */
+}
+#check{
+    width: 100px;
+    height: 45px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: solid 1px white;
+    transition: background 0.5s ;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+#check:hover{
+    background-color:gray;
+    border: white;
+}
+#reset:hover{
+    background-color: skyblue;
+    border: white;
+    
+}
+#reset{
+    width: 100px;
+    height: 45px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: solid 1px skyblue;
+    transition: background 0.5s ;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#message{
+    margin-left: 130px;
+    text-decoration: underline;
+    margin-top: 50px;
+}
